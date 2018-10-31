@@ -8,8 +8,9 @@ for i in range(0,number):
 print (list1)
 #checking the duplicates
 for i in range(0, size):
-	if arr[abs(arr[i])] >= 0:
-		arr[abs(arr[i])] = -arr[abs(arr[i])]
+	if list1[(list1[i])] >= 0:
+		list1[(list1[i])] = -list1[(list1[i])]
 	else:
-		print (abs(arr[i]), end = " ") 
+		list2.append(list1[i])
               
+print(list2)
