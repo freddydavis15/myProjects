@@ -5,7 +5,6 @@ print (list1)
 list2=list1.split(" ")
 print (list2)
 count=list2.count('')
-#print(count)
 for i in range(0,count):
 	list2.remove('')
 print (list2)
